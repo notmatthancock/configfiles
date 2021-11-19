@@ -1,0 +1,14 @@
+# Up
+"\e[A":history-search-backward
+# Down
+"\e[B":history-search-forward
+
+# CTRL+Up
+"\e[1;5A":beginning-of-line
+# CTRL+Down
+"\e[1;5B":end-of-line
+
+# CTRL+Right
+"\e[1;5C":forward-word
+# CTRL+Left
+"\e[1;5D":backward-word
