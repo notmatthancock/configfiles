@@ -2,7 +2,7 @@
 export editor=nvim
 export PS1=$'\[\033[48;5;221;38;5;237m\] \@ \[\033[0m\] \[\033[01;34m\]\W\[\033[00m\] \$ '
 export LOCAL=$HOME/local
-export PATH=$PATH:$HOME/.local/bin:$LOCAL/bin:$LOCAL/node-v14.15.5-linux-x64/bin:$LOCAL/aws-cli/bin:$LOCAL/nvim-linux64-v0.6.0/bin
+export PATH=$PATH:$HOME/.local/bin:$LOCAL/bin:$LOCAL/node-v14.15.5-linux-x64/bin:$LOCAL/aws-cli/bin:$LOCAL/nvim-linux64-v0.6.1/bin
 
 # Aliases.
 alias reload-bashrc='source $HOME/.bashrc'

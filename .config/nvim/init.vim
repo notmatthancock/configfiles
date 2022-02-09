@@ -41,6 +41,7 @@ nnoremap j gj
 nnoremap k gk
 nnoremap <down> gj
 nnoremap <up> gk
+unmap Y
 
 :nnoremap <C-d> "=strftime("%a %d %b %Y")<CR>P
 
