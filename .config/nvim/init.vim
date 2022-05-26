@@ -15,6 +15,7 @@ set wildmenu
 set spelllang=en_us
 set display=lastline " for long lines.
 set linebreak " break lines on word boundaries, not in the middle of words.
+set autochdir
 
 " jump to the last position when reopening a file
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
@@ -125,7 +126,7 @@ autocmd BufWinEnter * if getcmdwintype() == '' | silent NERDTreeMirror | endif
 let NERDTreeIgnore = ['\.pyc$', '__pycache__', '\.egg-info$']
 
 " Expand directories by default
-autocmd User NERDTreeInit normal O
+" autocmd User NERDTreeInit normal O
 
 " Expand / collapse file browser with ALT+SHIFT+F
 " NOTE: Alt+1 is equivalent Pycharm shortcut

@@ -4,7 +4,7 @@ ZSH_THEME="robbyrussell"
 # Exports
 export ZSH=$HOME/.oh-my-zsh
 export LOCAL=$HOME/local
-export PATH=$PATH:$LOCAL/bin:$LOCAL/nvim-osx64/bin
+export PATH=$PATH:$LOCAL/bin:/opt/homebrew/bin
 export EDITOR=nvim
 
 # Uncomment one of the following lines to change the auto-update behavior
